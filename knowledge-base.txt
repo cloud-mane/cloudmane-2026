@@ -212,7 +212,8 @@ frame_9: 0x7FFF4A2B1C16
 настройка виртуальной машины, жмём на Network adapter 1, дополнительно и создаем новый MAC-адрес.
 ====================================================================================================
 Заходим в браузере на стенд и в разделе Networking, Port groups, Add port group и создаем.
-В Name пишем cli-net | В VLAN ID 10 | и так по аналогии
+В Name пишем 
+cli-net | В VLAN ID 10 | и так по аналогии
 br-net  | 11
 isp-hq  | 12
 isp-br  | 13
@@ -224,8 +225,9 @@ VM Network переменовываем Name через Edit setting в internet
 Нажимаем на виртуальную машину ISP жмём Edit, жмём на Network Adapter 1 и выбираем из списка internet,
 жмём на Network Adapter 2 и выбираем isp-br,жмём на Network Adapter 3 и выбираем isp-hq,
 жмём Save и ОБЯЗАТЕЛЬНО ПРОВЕРЯЕМ ПРИМИНИЛИСЬ ЛИ ПОРТЫ!!!!
-br-rtr | NA 1 - isp-br | NA 2 - bt-net
-hq-rtr | NA 1 - isp-hq | NA 2 - srv-net | NA 3 - hq-net | NA 4 - cli-net
+ISP    | NA 1 - Internet | NA 2 - isp-br  | NA 3 - isp-hq
+br-rtr | NA 1 - isp-br   | NA 2 - bt-net
+hq-rtr | NA 1 - isp-hq   | NA 2 - srv-net | NA 3 - hq-net | NA 4 - cli-net
 hq-srv | NA 1 - srv-net
 br-srv | NA 1 - br-net
 cli    | NA 1 - cli-net
