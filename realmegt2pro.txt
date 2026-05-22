@@ -1,17 +1,168 @@
-[SYSTEM_CACHE_V1.0]
-timestamp=2026-05-22T19:34:12.847Z
-session_id=a7f3e9d2c8b1a4f6e0d9c8b7a6f5e4d3
-checksum=0x9F4E2A7B
-format=base64+compressed
-encoding=UTF8-BLOB
----
-NUL: 0x00 0x00 0x1F 0x8B 0x08 0x00 0x00 0x00 0x00 0x00
-HEADER: SYS_CACHE_v1.0.3_compressed_segment
+[heap_allocations]
+alloc_001: size=2048 address=0x600000000000
+alloc_002: size=4096 address=0x600000002000
+alloc_003: size=1024 address=0x600000003000
+alloc_004: size=8192 address=0x600000004000
+alloc_005: size=512 address=0x600000006000
+alloc_006: size=16384 address=0x600000008000
+[gc_roots]
+root_1: 0x600000000000 -> 0x7FFF4A2B1C0D
+root_2: 0x600000002000 -> 0x7FFF4A2B1C0E
+root_3: 0x600000003000 -> 0x7FFF4A2B1C0F
+root_4: 0x600000004000 -> 0x7FFF4A2B1C10
 [data_start]
 YmFzZTY0X2VuY29kZWRf0L7RgtCy0LXRgtGLINC30LTQtdGB0YwgMQ0K0JLRgtC+0YDQvtC5INGC0LXQutGB0YIK0KLRgNC10YLQuNC5INC+0YLQstC10YI=
 [data_end]
-padding: 0xFF 0xFF 0x00 0x00 0xAA 0xBB 0xCC 0xDD
-eof_marker: 0x1A 0x1A 0x1A
+[padding_region]
+0x2000: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x2010: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x2020: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x2030: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x2040: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x2050: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x2060: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x2070: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x2080: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x2090: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x20A0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x20B0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x20C0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x20D0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x20E0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+0x20F0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+[checksum_footer]
+algorithm=CRC64
+value=0x8F4E2A7B1C3D5E6F
+[eof_marker]
+0x1A 0x1A 0x1A 0x00 0x00 0x00 0x00 0xFF 0xFF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 --------------------------------------------------------------------
 		МАРШРУТИЗАЦИЯ И КОММУТАТАЦИЯ
